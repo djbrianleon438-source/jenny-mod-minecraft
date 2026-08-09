@@ -1,0 +1,13 @@
+# See https://github.com/github/linguist   
+# Project-specific overrides
+# This file is used to override language statistics
+*.woff binary
+*.jpeg binary
+*.sh text eol=lf
+*.gif binary
+Cargo.lock linguist-generated
+**/*.py linguist-detectable
+*.png binary
+static/* linguist-vendored
+static/**/*.html linguist-vendored 
+*.py linguist-detectable
